@@ -3,6 +3,11 @@ body {
 }
 
 h1 {
-  color: navy;
+  color: grey;
+  margin-left: 20px;
+}
+
+h2 {
+  color: black;
   margin-left: 20px;
 }
