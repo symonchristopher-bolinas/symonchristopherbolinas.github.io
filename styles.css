@@ -137,6 +137,16 @@ body {
   background: #fff;
 }
 
+.resume .resume_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.resume .resume_right .bold {
+  color: #0bb5f4;
+  
+}
 .resume .resume_right .resume_work ul,
 .resume .resume_right .resume_education ul {
   padding-left: 40px;
