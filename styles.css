@@ -95,14 +95,6 @@ body {
   position: relative;
 }
 
-.resume .icon i,
-.resume .resume_right .resume_hobby ul li i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .resume .resume_left ul li .data {
   color: #b1eaff;
 }
