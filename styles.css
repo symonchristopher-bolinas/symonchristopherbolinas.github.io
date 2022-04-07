@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800&family=Playfair+Display&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 body {
-  background: #add8e6;
+  background: #585c68;
   font-size: 14px;
   line-height: 22px;
   color: #555555;
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -35,7 +35,7 @@ body {
 
 .resume .resume_left {
   width: 280px;
-  background: #FFFFFF;
+  background: #0bb5f4;
 }
 
 .resume .resume_left .resume_profile {
@@ -61,12 +61,12 @@ body {
 }
 
 .resume .resume_left .regular {
-  color: #b1eaff;
+  color: #000000;
 }
 
 .resume .resume_item {
   padding: 25px 0;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #000000;
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -85,10 +85,9 @@ body {
 }
 
 .resume .resume_left ul li .icon {
-  width: 35px;
-  height: 35px;
-  background: #fff;
-  color: #196e8c;
+  width: 40px;
+  height: 40px;
+  color: #000000;
   border-radius: 50%;
   margin-right: 15px;
   font-size: 16px;
@@ -96,13 +95,13 @@ body {
 }
 
 .resume .resume_left ul li .data {
-  color: #196e8c;
+  color: #000000;
 }
 
 .resume .resume_left .resume_skills ul li {
   display: flex;
   margin-bottom: 10px;
-  color: #196e8c;
+  color: #000000;
   justify-content: space-between;
   align-items: center;
 }
@@ -128,19 +127,24 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #000000;
+  background: #fff;
+}
+
+.resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
 }
 
 .resume .resume_right {
   width: 520px;
-  background: #5ed5ff;
+  background: #D3D3D3;
   padding: 25px;
 }
 
 .resume .resume_right .bold {
   color: #0bb5f4;
-  
 }
+
 .resume .resume_right .resume_work ul,
 .resume .resume_right .resume_education ul {
   padding-left: 40px;
